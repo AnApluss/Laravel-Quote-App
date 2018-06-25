@@ -1,0 +1,169 @@
+body{
+	padding: 0;
+	margin : 0;
+	font-family: "Georgia", Times, sans-serif;
+	font-size:16px;
+	line-height: 20px;
+	background-color: #fccccf;
+}
+
+/* main section */
+.main{
+	width: 80%;
+	margin: 48px auto;
+}
+
+.edit-quote{
+	text-align: center;
+}
+
+.quotes{
+	text-align: center;
+}
+
+.quote{
+	position: relative;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-shadow: 2px 2px 2px #ccc;
+	width: -moz-calc(25% - 48px);
+	width: -o-calc(25% - 48px);
+	width: -ms-calc(25% - 48px);
+	width: -webkit-calc(25% - 48px);
+	width: calc(25% - 48px);
+	height: auto;
+	margin: 32px;
+	padding: 16px;
+	vertical-align: top;
+	background-color: #fff6e0;
+}
+
+.quote.first-in-line{
+	margin-left: 0;
+}
+
+.quote.last-in-line{
+	margin-right: 0;
+}
+
+.quote .info{
+	margin-top: 8px;
+	font-size: 12px;
+	font-family: 'Roboto' Sans-serif;
+	color: #ccc;
+}
+
+.quote .info a{
+	color: #ccc;
+}
+
+.quote .info a:hover,
+.quote .info a:active{
+	color: #aaa;
+}
+
+.quote .delete{
+	position: absolute;
+	top: 0;
+	right: 4px;
+	font-family: sans-serif;
+}
+
+.quote .delete a{
+	color: #bbb;
+	text-decoration: none;
+}
+
+.quote .delete a:hover,
+.quote .delete a:active{
+	color: red;
+}
+
+.input-group{
+	margin: 16px 0;
+}
+
+.input-group label{
+	display: block;
+	text-align: center;
+	font-weight: bold;
+}
+
+.input-group input,
+.input-group textarea{
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	font-family: inherit;
+	font-size: inherit;
+	padding: 4px 8px;
+}
+
+.input-group #writer{
+	width: 200px;
+}
+
+.input-group textarea{
+	width: 400px;
+}
+
+.btn{
+	border: 1px solid #ff6b6a;
+	border-radius: 3px;
+	background-color: #ffc2ba;
+	font-size: inherit;
+	font-family: 'Roboto' sans-serif;
+	padding: 8px;
+	cursor: pointer;
+	color:#fff;
+	font-weight: bold;
+}
+
+.btn:hover,
+.btn:active{
+	background-color: #ffc2ba;
+}
+
+.info-box{
+	text-align: center;
+	margin: auto;
+	padding: 16px;
+	border-radius: 3px;
+	width: 350px;
+}
+
+.info-box.fail{
+	background-color: #ffc2ba;
+	border: 1px solid #ff6b6a;
+	color: #ff6b6a;
+	font-weight: bold;
+}
+
+.info-box.success{
+	background-color: #46ff71;
+	border: 1px solid #46bb71;
+	color: #46bb71;
+	font-weight: bold;
+}
+
+.filter-bar{
+	width: 100%;
+	padding: 16px;
+	background-color: #f9ffc3;
+	color: black;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.pagination{
+	font-size: 20px;
+}
+
+.pagination a{
+	color: black;
+	text-decoration: none;
+}
+
+.pagination a:hover,
+.pagination a:active{
+	color: #ccc;
+}
